@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "hexo-admin-musix",
+=======
+  "name": "hexo-musix-admin",
+>>>>>>> 21d33a6aac9c4ed8163f6b6efa067942a0a53cc4
   "version": "1.0.1",
   "description": "Adds an admin section to the hexo server",
   "main": "index.js",
@@ -8,7 +12,11 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://github.com/musixnotmusic/hexo-admin.git"
+=======
+    "url": "https://github.com/MusixNotMusic/hexo-admin.git"
+>>>>>>> 21d33a6aac9c4ed8163f6b6efa067942a0a53cc4
   },
   "keywords": [
     "hexo",
@@ -16,10 +24,17 @@
     "dashboard",
     "plugin"
   ],
+<<<<<<< HEAD
   "author": "musix <2709601306@qq.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/musixnotmusic/hexo-admin/issues"
+=======
+  "author": "Musix <279601306@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MusixNotMusic/hexo-admin/issues"
+>>>>>>> 21d33a6aac9c4ed8163f6b6efa067942a0a53cc4
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -42,7 +57,8 @@
     "browserify": "^11.2.0",
     "codemirror": "^5.24.2",
     "es6-promise": "^1.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
     "gulp-less": "^3.0.5",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
