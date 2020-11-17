@@ -68,5 +68,5 @@ gulp.task('connect', function() {
     livereload: true
   });
 });
-
-gulp.task('default', ['build', 'watch', 'connect']);
+gulp.task('server', ['build', 'connect']);
+gulp.task('default', ['build', 'watch']);
