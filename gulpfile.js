@@ -8,6 +8,7 @@ var gutil = require('gulp-util');
 var sourcemaps = require('gulp-sourcemaps');
 var reactify = require('reactify');
 var rename = require('gulp-rename');
+var connect = require('gulp-connect');
 
 gulp.task('demo', function () {
   var b = browserify({
@@ -60,4 +61,12 @@ gulp.task('watch', function () {
   gulp.watch('client/**/*.less', ['less']);
 });
 
-gulp.task('default', ['build', 'watch']);
+gulp.task('connect', function() {
+  connect.server({
+    root: 'www',
+    port: 8001,
+    livereload: true
+  });
+});
+
+gulp.task('default', ['build', 'watch', 'connect']);
