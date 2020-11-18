@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "hexo-admin-musix",
-=======
   "name": "hexo-musix-admin",
->>>>>>> 21d33a6aac9c4ed8163f6b6efa067942a0a53cc4
   "version": "1.0.1",
   "description": "Adds an admin section to the hexo server",
   "main": "index.js",
@@ -12,11 +8,7 @@
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
-    "url": "https://github.com/musixnotmusic/hexo-admin.git"
-=======
     "url": "https://github.com/MusixNotMusic/hexo-admin.git"
->>>>>>> 21d33a6aac9c4ed8163f6b6efa067942a0a53cc4
   },
   "keywords": [
     "hexo",
@@ -24,17 +16,10 @@
     "dashboard",
     "plugin"
   ],
-<<<<<<< HEAD
-  "author": "musix <2709601306@qq.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/musixnotmusic/hexo-admin/issues"
-=======
   "author": "Musix <279601306@qq.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MusixNotMusic/hexo-admin/issues"
->>>>>>> 21d33a6aac9c4ed8163f6b6efa067942a0a53cc4
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
