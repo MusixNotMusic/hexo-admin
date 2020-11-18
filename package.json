@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/musixnotmusic/hexo-admin.git"
+    "url": "https://github.com/MusixNotMusic/hexo-admin.git"
   },
   "keywords": [
     "hexo",
@@ -16,10 +16,10 @@
     "dashboard",
     "plugin"
   ],
-  "author": "musix <2709601306@qq.com>",
+  "author": "Musix <279601306@qq.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/musixnotmusic/hexo-admin/issues"
+    "url": "https://github.com/MusixNotMusic/hexo-admin/issues"
   },
   "homepage": "http://jaredly.github.io/hexo-admin/",
   "dependencies": {
