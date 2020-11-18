@@ -5,3 +5,5 @@ docs/demo/admin/bundle.js
 public
 db.json
 *.swp
+yarn.lock
+package-lock.json
